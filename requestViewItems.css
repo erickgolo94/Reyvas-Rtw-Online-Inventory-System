@@ -1,0 +1,51 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+ 
+}
+
+h2 {
+    margin-top: 10px;
+    text-align: center;
+    text-shadow: rgb(131, 133, 20);
+    color: rgb(131, 133, 20);
+}
+p{
+    font-weight: bold;
+    font-style: inherit;
+}
+
+.select-item {
+    background-color: #ddd;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #333;
+    color:#ddd;
+}
